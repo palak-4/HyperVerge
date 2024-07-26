@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Meet</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="google_slides.html">Google Slides</a></li>
+            <li><a href="pomodoro.html">Pomodoro Timer</a></li>
+            <li><a href="google_sheets.html">Google Spreadsheet</a></li>
+            <li><a href="google_forms.html">Google Form</a></li>
+            <li><a href="google_calendar.html">Google Calendar</a></li>
+            <li><a href="google_meet.html">Google Meet</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="polls.html">Polls</a></li>
+            <li><a href="book_quote.html">Book & Quote</a></li>
+            <li><a href="issue_tracker.html">Issue Tracker</a></li>
+            <li><a href="daily_growth.html">Daily Growth Checklist</a></li>
+            <li><a href="announcements.html">Announcements</a></li>
+            <li><a href="health_tracker.html">Health Tracker</a></li>
+            <li><a href="opportunity_board.html">Opportunity Board</a></li>
+            <li><a href="leaderboard.html">Leaderboard</a></li>
+            <li><a href="til.html">TIL</a></li>
+            <li><a href="google_keep.html">Google Keep</a></li>
+            <li><a href="chat_box.html">Chat Box</a></li>
+            <li><a href="notion_page.html">Notion Page</a></li>
+            <li><a href="widget_toggle.html">Widget Toggle</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <h2>Google Meet</h2>
+        <p>Click the button below to start a new Google Meet session.</p>
+        <button id="start-meet-btn">Start New Google Meet</button>
+    </div>
+
+    <script>
+        document.getElementById('start-meet-btn').addEventListener('click', function() {
+            window.open('https://meet.google.com/new', '_blank');
+        });
+    </script>
+</body>
+</html>
